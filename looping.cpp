@@ -19,4 +19,6 @@ int main (){
     // untuk mendapatkan urutan angka acak yang berbeda
     srand(time(0));
 
+    cout << "PERULANGAN WHILE" << endl;
+
 }
