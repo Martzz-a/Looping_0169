@@ -14,5 +14,5 @@ int main (){
         cout << "Teknologi Informasi UMY " << i << endl;
     }
     
-
+    cout << endl;
 }
