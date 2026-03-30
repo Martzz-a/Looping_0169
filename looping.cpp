@@ -15,4 +15,8 @@ int main (){
     }
     
     cout << endl;
+
+    // untuk mendapatkan urutan angka acak yang berbeda
+    srand(time(0));
+
 }
