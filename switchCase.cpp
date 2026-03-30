@@ -13,7 +13,7 @@ void input() {
     cout << "2. Teknik Elektro" << endl;
     cout << "3. Sistem Informasi" << endl;
     cout << "----------------------------------" << endl;
-    cout << "Masukkan kode jurusan (1-3): " << endl;
+    cout << "Masukkan kode jurusan (1-3): ";
     cin >> kodeJurusan;
 }
 
@@ -45,4 +45,12 @@ void output(){
     cout << "Jurusan Pilihan : " << namaJurusan << endl;
     cout << "Status Kuota    : " << statusKuota << endl;
     cout << "-------------------------------------" << endl;
+}
+
+int main (){
+    input();
+    pilihanJurusan();
+    output();
+
+    return 0;
 }
