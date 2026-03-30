@@ -33,4 +33,6 @@ int main (){
     cout << "Bilangan acak while yang terakhir = " << x << endl;
     cout << endl;
 
+    cout << "PERULANGAN DO...WHILE" << endl;
+
 }
